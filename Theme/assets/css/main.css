@@ -21,8 +21,8 @@ body {
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
-    font-weight: 300;
-    color: #333;
+    font-weight: 400;
+    color: #121133;
 }
 
 
@@ -157,7 +157,7 @@ a:after {
 
 #w h3 {
 	font-weight: 700;
-	color: #7b7b7b;
+	color: #7b6558;
 	letter-spacing: 1px;
 }
 
