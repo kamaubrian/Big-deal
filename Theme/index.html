@@ -367,7 +367,7 @@
 					<button class="btn btn-group-lg" id="submit" onclick="success();">Submit</button>
 					<script>
                         function success(){
-                            alert("Message Sent Successfully!!!");
+
 
                             if     (document.getElementById('nametag').value,
                                     document.getElementById('emailtag').value,
@@ -376,9 +376,19 @@
                                 alert("Please Fill In All Areas");
                             }else {
                                 alert("Message Sent Successfully");
+                                clearTextBoxes();
+
                             }
 
+
                         }
+                        function clearTextBoxes(){
+							document.getElementById('nametag').value="";
+                                document.getElementById('emailtag').value="";
+                                document.getElementById('subject').value="";
+                                document.getElementById('messagebody').value="";
+
+						}
 					</script>
 
 				</div>
