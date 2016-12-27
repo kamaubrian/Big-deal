@@ -113,7 +113,7 @@ a:after {
 #headerwrap h2 {
 	color: white;
 	font-size: 50px;
-	font-weight: 300;
+	font-weight: 600;
 	letter-spacing: 2px;
 }
 
@@ -353,7 +353,7 @@ a:after {
 }
 
 .menu-close {
-	cursor: pointer;
+	cursor: zoom-out;
 	display: block;
 	position: absolute;
 	font-size: 14px;
@@ -468,4 +468,14 @@ a:after {
 .team a {
 	padding-right: 10px;
 	padding-left: 10px;
+}
+/*#u {
+	background: white;
+	padding-top: 20px;
+	padding-bottom:20px;
+	text-aligb:center;
+
+}*/
+#u h3{
+	color :#2f2f2f;
 }
